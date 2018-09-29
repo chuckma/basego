@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c609c554-917b-453e-936c-61fcddd60573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/typeConvert.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,22 +87,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="13" />
+          <entry key="go" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="13" />
+          <entry key="Go" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="1223" />
+          <entry key="go" value="1428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1223" />
+          <entry key="Go" value="1428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -118,11 +118,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/map.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="230">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/typeConvert.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -180,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/slice.go" />
         <option value="$PROJECT_DIR$/src/main/range.go" />
         <option value="$PROJECT_DIR$/src/main/map.go" />
+        <option value="$PROJECT_DIR$/src/main/typeConvert.go" />
       </list>
     </option>
   </component>
@@ -257,20 +267,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build map.go">
+  <component name="RunManager" selected="Go Build.go build typeConvert.go">
     <configuration name="go build map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="basego" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/main/map.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basego" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/main/pointer.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -298,20 +300,28 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build typeConvert.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="basego" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/main/typeConvert.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build pointer.go" />
       <item itemvalue="Go Build.go build struct.go" />
       <item itemvalue="Go Build.go build slice.go" />
       <item itemvalue="Go Build.go build range.go" />
       <item itemvalue="Go Build.go build map.go" />
+      <item itemvalue="Go Build.go build typeConvert.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build typeConvert.go" />
         <item itemvalue="Go Build.go build map.go" />
         <item itemvalue="Go Build.go build range.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build struct.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
       </list>
     </recent_temporary>
   </component>
@@ -414,8 +424,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/map.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="230">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/typeConvert.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
