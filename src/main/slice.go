@@ -25,6 +25,9 @@ func main() {
 	//创建切片
 	numbers :=[] int{0, 1, 2, 3, 4, 5, 6, 7, 8}
 	splitSlice(numbers)
+
+	// 切片添加元素
+	addElement()
 }
 
 func printSlice(x []int){
@@ -73,4 +76,31 @@ func splitSlice(numbers []int)  {
 	printSlice(number3)
 
 
+}
+
+/*append() 和 copy() 函数*/
+
+func addElement()  {
+	fmt.Println("=========切片添加元素===========")
+	var num []int
+	printSlice(num)
+
+	/* 允许追加空切片 */
+	num = append(num, 0)
+	printSlice(num)
+
+	/* 向切片添加一个元素 */
+	num = append(num, 1)
+	printSlice(num)
+
+	/* 同时添加多个元素 */
+	num = append(num, 2,3,4)
+	printSlice(num)
+
+	/* 创建切片 num1 是之前切片的两倍容量*/
+	num1 := make([]int, len(num), (cap(num))*2)
+
+	/* 拷贝 num 的内容到 num1 */
+	copy(num1,num)
+	printSlice(num1)
 }
