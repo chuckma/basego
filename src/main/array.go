@@ -22,15 +22,25 @@ func main() {
 	var n [10]int
 	var i, j int
 
+	fmt.Println(n)
+
 	// 为 数组 n 初始化 元素
 	for i = 0; i < 10; i++ {
 		n[i] = i + 100
 	}
 
-
 	/* 输出每个数组元素的值 */
 	for j = 0; j < 10; j++ {
-		fmt.Printf("Element[%d] = %d\n", j, n[j] )
+		fmt.Printf("Element[%d] = %d\n", j, n[j])
 	}
+	// 在使用 fmt.Println 打印数组的时候 会以 [v1 v2 v3 ...] 的格式显示
+	fmt.Println(n)
+
+
+	var str [10] string
+	str[1]="test"
+
+	fmt.Println("str",str)
+	fmt.Println("len:",len(str))
 
 }
