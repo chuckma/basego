@@ -58,7 +58,7 @@ func main()  {
 	var a int = 10 /*声明实际变量*/
 	var ip *int /*声明指针变量*/
 	ip = &a /*指针变量的内存地址*/
-	fmt.Printf("变量的地址: %x\n",&a)
+	fmt.Printf("a 变量的地址: %x\n",&a)
 
 	fmt.Printf("ip 变量存储的指针地址是：%x\n",ip)
 
