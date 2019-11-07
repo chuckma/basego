@@ -24,22 +24,22 @@ type Books struct {
 }
 
 func main() {
-	//test()
+	test()
 	//test1()
 	//test2()
-	test3()
+	//test3()
 }
 func test() {
 	// 创建一个新的结构体
-	fmt.Println(Books{"Go 语言", "lucas ma", "Go 语言基础", 123})
+	fmt.Println(Books{"Go语言", "lucas ma", "Go语言基础", 123})
 
 	// 也可以使用 key => value 格式
-	fmt.Println(Books{title: "Go 语言", author: "lucas ma", subject: "Go 语言基础", bookId: 124})
+	fmt.Println(Books{title: "Go语言", author: "lucas ma", subject: "Go语言基础", bookId: 124})
 
 	// 忽略的字段为 0 或 空
-	fmt.Println(Books{title: "Go 语言", author: "lucas ma"})
+	fmt.Println(Books{title: "Go语言", author: "lucas ma"})
 
-	books := Books{"Go 语言", "lucas ma", "Go 语言基础", 123123}
+	books := Books{"Go语言", "lucas ma", "Go语言基础", 123123}
 	fmt.Println(books.author)
 }
 func test1() {
